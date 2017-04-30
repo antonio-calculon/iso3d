@@ -2,10 +2,14 @@
 
 lib_LTLIBRARIES = libiso3d.la
 
+libiso3d_la_CXXFLAGS = -I$(top_srcdir)
+
 libiso3d_la_SOURCES = \
-    isobase.cpp
+    isobase.cpp \
+	isomap.cpp
 
 include_HEADERS = iso3d.hpp
 
 pkginclude_HEADERS = \
-	isobase.hpp
+	isobase.hpp \
+	isomap.hpp

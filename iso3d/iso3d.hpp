@@ -4,4 +4,6 @@
 
 #include "iso3d/isobase.hpp"
 
+#include "iso3d/isomap.hpp"
+
 #endif
