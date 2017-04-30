@@ -8,7 +8,8 @@ libiso3d_la_SOURCES = \
     isobase.cpp \
 	isomap.cpp \
 	isolayer.cpp \
-	isolayermesh.cpp
+	isolayermesh.cpp \
+	isoview.cpp
 
 include_HEADERS = iso3d.hpp
 
@@ -16,4 +17,5 @@ pkginclude_HEADERS = \
 	isobase.hpp \
 	isomap.hpp \
 	isolayer.hpp \
-	isolayermesh.hpp
+	isolayermesh.hpp \
+	isoview.hpp

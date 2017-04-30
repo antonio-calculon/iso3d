@@ -10,4 +10,6 @@
 
 #include "iso3d/isolayermesh.hpp"
 
+#include "iso3d/isoview.hpp"
+
 #endif
