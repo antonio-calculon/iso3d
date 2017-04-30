@@ -6,4 +6,8 @@
 
 #include "iso3d/isomap.hpp"
 
+#include "iso3d/isolayer.hpp"
+
+#include "iso3d/isolayermesh.hpp"
+
 #endif
