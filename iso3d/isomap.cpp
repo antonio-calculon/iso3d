@@ -8,7 +8,7 @@ using namespace iso;
 
 void Map::setup ()
 {
-  printf("iso map setup");
+  DEBUG("iso map setup");
 }
 
 void Map::add_layer ( Layer *layer )

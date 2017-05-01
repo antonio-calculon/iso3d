@@ -4,8 +4,8 @@
 #include <stdio.h>
 
 #define LOG(lvl, v...) do {                     \
-    printf("spcol:%s:%d:" lvl " ",              \
-           __FILE__, __LINE__);                 \
+    printf("iso:%s:%d:%s ",                     \
+           __FILE__, __LINE__, lvl);            \
     printf(v);                                  \
     printf("\n");                               \
   } while (0)
