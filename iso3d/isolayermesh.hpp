@@ -14,6 +14,7 @@ namespace iso
     int height;
   public:
     LayerMesh ( int width, int height );
+    void display ( View *view );
   };
 }
 

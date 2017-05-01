@@ -1,4 +1,5 @@
 
+#include "iso3d/private.hpp"
 #include "iso3d/isomap.hpp"
 
 using namespace iso;
@@ -12,5 +13,6 @@ void Map::setup ()
 
 void Map::add_layer ( Layer *layer )
 {
+  DEBUG("add_layer: %p", layer);
   this->layers.push_back(layer);
 }

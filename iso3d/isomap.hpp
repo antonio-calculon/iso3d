@@ -19,6 +19,8 @@ namespace iso
   public:
     void setup ();
     void add_layer ( Layer *layer );
+    auto layers_begin () { return this->layers.begin(); }
+    auto layers_end () { return this->layers.end(); }
   };
 }
 
